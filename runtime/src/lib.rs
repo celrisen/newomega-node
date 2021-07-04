@@ -299,7 +299,7 @@ impl pallet_contracts::Config for Runtime {
 }
 
 parameter_types! {
-	pub const ExistentialDeposit: u128 = 500;
+	pub const ExistentialDeposit: u128 = 0;
 	pub const MaxLocks: u32 = 50;
 }
 
